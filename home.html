@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+	<head>
+		<title>FOR ONE AND ONLY</title>
+		<!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet">-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
+		
+		<style>
+		@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+		body
+		{
+			margin:0;
+			padding:0;
+			font-family:san-serif;
+			background: black;
+		}
+		
+		.letter{
+			color: #fff; 
+			cursor: pointer;
+			text-shadow: 2px 2px 4px #000000;
+			display: inline-block;
+
+		}
+		
+		.letter:hover{
+			transform: translate(0px,-20px);
+		}
+		
+		.text-container{
+			top: 100px;
+			font-family: "Luckiest Guy"; 
+			font-size:80px;
+			display: block;
+			text-align: center;
+		}
+		
+
+		.container
+		{	
+			position:relative;
+			width:800px;
+			height:300px;
+			margin:100px auto;		  
+		}	
+		.container .box
+		{
+			position:relative;
+			width: calc(400px - 30px);
+			height: calc(300px - 30px);
+			background:#ff0;
+			float:left;
+			margin: 15px;
+			box-sizing: border-box;
+			overflow:hidden;
+			border-radius:10px;
+			
+		}
+		.container .box .icon
+		{
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			background:#f00;
+			transition:0.5s;
+			z-index:1;
+		}
+		.container .box:hover .icon
+		{
+			top:20px;
+			left:calc(50% - 40px);
+			width:80px;
+			height:80px;
+			border-radius:50%;
+		}
+		.container .box .icon .fas
+		{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			font-size:80px;
+			transition:0.5s;
+			color:#fff;
+			/*text-align:center;*/
+		}
+		.container .box:hover .icon .fas
+		{
+			font-size:40px; 
+		}
+		
+		.container .box .icon .fab
+		{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			font-size:80px;
+			transition:0.5s;
+			color:#fff;
+			/*text-align:center;*/
+		}
+		.container .box:hover .icon .fab
+		{
+			font-size:40px; 
+		}
+		
+		.container .box .icon .far
+		{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			font-size:80px;
+			transition:0.5s;
+			color:#fff;
+			/*text-align:center;*/
+		}
+		.container .box:hover .icon .far
+		{
+			font-size:40px; 
+		}
+		
+		
+		
+		.container .box .content
+		{
+			position:absolute;
+			top:100%;
+			width:100%;
+			height:calc(100% - 100px);
+			text-align: center;
+			padding:20px;
+			box-sizing:border-box;
+			transition:.5s;
+			opacity:1;
+		}
+		.container .box:hover .content
+		{
+			top:100px;
+		}
+
+		.container .box .content h1
+		{
+			margin: 0 0 10px ;
+			padding: 0;
+			color: #fff;
+			font-size:50px;
+		}
+
+		.container .box .content p
+		{
+			margin: 0;
+			padding: 0;
+			color: #fff;
+		}
+		.container .box:nth-child(1) .icon
+		{
+			background:#319635;
+		}
+		.container .box:nth-child(1) 
+		{
+			background:#4caf50;
+		}
+		.container .box:nth-child(2) .icon
+		{
+			background:#d03852;
+		}
+		.container .box:nth-child(2) 
+		{
+			background:#f54967;
+		}	
+		.container .box:nth-child(3) .icon
+		{
+			background:#23798e;
+		}
+		.container .box:nth-child(3) 
+		{
+			background:#328fa5;
+		}	
+		.container .box:nth-child(4) .icon
+		{
+			background: #d9be0d;
+		}
+		.container .box:nth-child(4) 
+		{
+			background: #f4dc3e;
+		}	
+
+			
+			
+		</style>
+	</head>
+	
+	
+	<body>
+		<h1 class = "text-container">
+			<span class="letter">H</span>
+			<span class="letter">A</span>
+			<span class="letter">R</span>
+			<span class="letter">S</span>
+			<span class="letter">H</span>
+			<span class="letter">I</span>
+			<span class="letter">T</span>			
+			<span class="letter">A</span>
+		<h1>
+
+		<div class="container">
+			<div class="box"><a href="hersheyslide.html" ><div>
+					<div class="icon">
+						<i class="fas fa-skull" aria-hidden="true"></i>
+					</div> 
+					<div class="content">
+						<h1>THIS</h1>
+					
+					</div>
+			</div></a></div>
+			
+			<div class="box"><a href="sunshine.html" ><div>
+					<div class="icon">
+						<i class="far fa-grin-stars" aria-hidden="true"></i>
+					</div> 
+					<div class="content">
+						<h1>IS</h1>
+					
+					</div>
+			</div></a></div>
+			
+			<div class="box"><a href="hersheyflower.html" ><div>
+					<div class="icon">
+						<i class="fas fa-adjust" aria-hidden="true"></i>
+					</div> 
+					<div class="content">
+						<h1>FOR</h1>
+						
+					</div>
+			</div></a></div>
+			
+			<div class="box"><a href="retro.html" ><div>
+					<div class="icon">
+						<i class="fab fa-napster" aria-hidden="true"></i>
+					</div> 
+					<div class="content">
+						<h1>YOU</h1>
+						
+					</div>
+			</div></a></div>
+		</div>
+		
+	</body>
+</html>
